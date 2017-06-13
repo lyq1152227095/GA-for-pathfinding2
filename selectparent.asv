@@ -1,0 +1,7 @@
+function [father,mather]= selectparent(genoms,fitness)
+    %排序选择，选出最大的两个父母，选出要变异的父母
+       
+    
+    father = genoms(one,:);
+    mather = genoms(two,:);
+end

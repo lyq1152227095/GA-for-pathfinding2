@@ -1,0 +1,13 @@
+function  genoms = mutate( genoms,pm,M)
+   for i = 1:M
+       n = size(genoms(i,:));
+       for j=1:n
+            p = rand();
+            if p<pm
+                k=randi([1,8],1,1);
+                
+            end
+       end
+   end 
+end
+

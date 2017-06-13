@@ -1,0 +1,9 @@
+function genoms = cross( father,mather,M)
+    [m,n]=(size(fathere))
+    for i=1:(M/2)
+        child = zeros()
+    end
+
+
+end
+
